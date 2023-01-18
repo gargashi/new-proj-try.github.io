@@ -20,7 +20,7 @@ const timeout = setTimeout(function () {
   document.getElementById("page-2").style.display = "none";
 
   window.clearTimeout(timeout);
-}, 2000);
+}, 5000);
 
 function secondId() {
   window.location.href = "index.html#page-2";
@@ -52,6 +52,7 @@ function backToPage2() {
   window.location.href = "index.html#page-1";
   document.getElementById("page-1").classList.remove("hidden");
   document.getElementById("page-2").classList.add("hidden");
+  document.getElementById("page-2").style.display = "none";
 }
 function backToPage4() {
   window.location.href = "index.html#page-2";
