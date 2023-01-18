@@ -52,3 +52,8 @@ body {
 .cigar-border {
   border-color: #7a3c35;
 }
+.cigar-top{
+  flex-direction: column;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
