@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="index.css" />
     <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="index.js"></script>
     <script
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
@@ -15,16 +14,16 @@
   </head>
 
   <body onload="exit()">
-    <div id="homePage" class="cigar-word-break w-10/12 mx-auto">
-      <div class="flex h-screen justify-center items-center">
+    <div id="homePage" class="cigar-word-break w-10/12 mx-auto cigar-top flex">
+      <div class="flex grow justify-center items-center">
         <div class="text-center">
           <h1 class="text-5xl cigar-main-font">CIGAR CONEXION</h1>
         </div>
       </div>
     </div>
 
-    <div id="page-1" class="cigar-word-break w-10/12 mx-auto hidden">
-      <div class="flex h-screen justify-center items-center">
+    <div id="page-1" class="cigar-word-break w-10/12 mx-auto cigar-top">
+      <div class="grow justify-center items-center flex">
         <div class="text-center flex flex-col gap-y-20">
           <h1 class="text-5xl cigar-main-font">CIGAR CONEXION</h1>
           <h2
@@ -336,4 +335,6 @@
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
+
 </html>
